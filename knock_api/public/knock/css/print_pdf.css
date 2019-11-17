@@ -1,0 +1,25 @@
+#view {
+  padding: 15px;
+  font-size: 14px;
+        line-height: 18px;
+         
+    }
+  .main-footer{
+    display: none;
+  }
+
+  a{
+    color:#000;
+  }
+
+  a[href]:after {
+    content: none !important;
+
+  }
+
+  .table>tbody>tr>td,.table>tbody>tr>th,.table>thead>tr>td,.table>thead>tr>th{
+    padding-top:1px !important;
+    padding-bottom:1px !important;
+    vertical-align: middle;
+    
+  }

@@ -1,0 +1,90 @@
+.general {
+color: #7F7F7F;
+font-family: Arial, sans-serif;
+font-size: 12px;
+font-weight: normal;
+width: 85mm;
+height: 50mm;
+border: 1px solid #fff;
+margin-left: 1px;
+margin-top: 10px;
+border-radius: 10px;
+}
+
+.barcodeTarget {
+margin-left: 10px;
+
+}
+
+.colorDisp {
+display: block;
+color: #000000;
+margin-top: 30px;
+text-align: center;
+
+}
+
+.sizeDisp {
+display: block;
+color: #000000;
+margin-top: 10px;
+text-align: center;
+
+}
+
+.qualityDisp {
+display: block;
+font-size: 9.0px;
+color: #000000;
+margin-top: 15px;
+text-align: center;
+
+}
+
+@media print {
+
+	.general {
+	color: #7F7F7F;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	width: 75mm;
+	height: 45mm;
+ 
+	margin-left: 1px;
+	margin-top: 9px;
+
+	}
+
+	.barcodeTarget {
+	margin-left: -15px;
+
+	}
+
+	.colorDisp {
+	display: block;
+	color: #000000;
+	margin-top: 20px;
+	text-align: center;
+
+	}
+
+	.sizeDisp {
+	display: block;
+	color: #000000;
+	margin-top: 8px;
+	text-align: center;
+
+	}
+
+	.qualityDisp {
+	display: block;
+	font-size: 9.0px;
+	color: #000000;
+	margin-top: 9px;
+	text-align: center;
+
+	}
+
+
+}
